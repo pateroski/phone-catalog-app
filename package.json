@@ -23,9 +23,9 @@
     ]
   },
   "prettier": {
-    "printWidth": 90,
     "bracketSpacing": false,
     "trailingComma": "es5",
+    "jsxBracketSameLine": true,
     "singleQuote": true
   },
   "husky": {
