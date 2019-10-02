@@ -3,159 +3,158 @@
     {
       "id": 1,
       "brand": "Apple",
-      "colors": ["black", "gold", "jet black", "red", "rose-gold", "silver"
-        ],
+      "colors": ["black", "gold", "jet black", "red", "rose-gold", "silver"],
       "name": "iPhone 7",
-      "price": 529,
+      "price": "529€",
       "year": 2016,
       "web": "https://www.apple.com/es/shop/buy-iphone/iphone-7",
       "description": "Apple iPhone 7 smartphone was launched in September 2016. The phone comes with a 4.70-inch touchscreen display with a resolution of 750 pixels by 1334 pixels at a PPI of 326 pixels per inch. Apple iPhone 7 price in India starts from Rs. 38,990.",
       "summary": "The iPhone 7's overall design is similar to the iPhone 6S, but introduces new color options (matte black and jet black), water and dust resistance, a new capacitive, static home button, and removes the 3.5 mm headphone jack. The device's internal hardware also received upgrades, including a heterogeneous quad-core system-on-chip with improved system and graphics performance, and upgraded 12 megapixel rear-facing cameras with optical image stabilization on all models and an additional telephoto lens on the iPhone 7 Plus model to provide enhanced zoom capabilities.",
-      "thumbnail": "./resources/thumbnails/apple_iphone_7.jpg",
-      "images": "./resources/images/apple_iphone_7.jpeg"
+      "thumbnail": "resources/thumbnails/apple_iphone_7.jpg",
+      "image": "./resources/images/apple_iphone_7.jpeg"
     },
     {
       "id": 2,
       "brand": "Apple",
       "colors": ["gold", "gray", "silver"],
       "name": "iPhone 8",
-      "price": 689,
+      "price": "689€",
       "year": 2017,
       "web": "https://www.apple.com/es/shop/buy-iphone/iphone-8",
       "description": "Apple iPhone 8 smartphone was launched in September 2017. The phone comes with a 4.70-inch touchscreen display with a resolution of 750 pixels by 1334 pixels at a PPI of 326 pixels per inch. Apple iPhone 8 price in India starts from Rs. 57,999.",
       "summary": "The iPhone 8 and iPhone 8 Plus are smartphones designed, developed, and marketed by Apple Inc. It is the eleventh generation of the iPhone. They were announced on September 12, 2017, alongside the higher-end iPhone X, at the Steve Jobs Theater in the Apple Park campus, and were released on September 22, 2017, succeeding iPhone 7 and iPhone 7 Plus.",
       "thumbnail": "./resources/thumbnails/apple_iphone_8.jpg",
-      "images": "./resources/images/apple_iphone_8.jpeg"
+      "image": "./resources/images/apple_iphone_8.jpeg"
     },
     {
       "id": 3,
       "brand": "Apple",
       "colors": ["black", "blue", "pink", "red", "white", "yellow"],
       "name": "iPhone XR",
-      "price": 859,
+      "price": "859€",
       "year": 2018,
       "web": "https://www.apple.com/es/iphone-xr/",
       "description": "Apple iPhone XR smartphone was launched in September 2018. The phone comes with a 6.10-inch touchscreen display with a resolution of 828 pixels by 1792 pixels at a PPI of 326 pixels per inch. Apple iPhone XR price in India starts from Rs. 69,999.",
       "summary": "All-screen design. Longest battery life ever in an iPhone. Fastest performance. Water and splash resistant. Studio-quality photos and 4K video. More secure with Face ID. The new iPhone XR. It’s a brilliant upgrade. Introducing Liquid Retina. The new display on iPhone XR is the most advanced LCD in the industry. An innovative backlight design allows the screen to stretch into the corners. So you see true-to-life color from one beautiful edge to the other.",
       "thumbnail": "./resources/thumbnails/apple_iphone_xr.jpg",
-      "images": "./resources/images/apple_iphone_xr.jpeg"
+      "image": "./resources/images/apple_iphone_xr.jpeg"
     },
     {
       "id": 4,
       "brand": "Apple",
       "colors": ["gold", "gray", "silver"],
       "name": "iPhone XS",
-      "price": 1159,
+      "price": "1159€",
       "year": 2018,
       "web": "https://www.apple.com/es/iphone-xs/",
       "description": "Apple iPhone XS smartphone was launched in September 2018. The phone comes with a 5.80-inch touchscreen display with a resolution of 1125 pixels by 2436 pixels at a PPI of 458 pixels per inch. Apple iPhone XS price in India starts from Rs. 96,801.",
       "summary": "Super Retina in two sizes — including the largest display ever on an iPhone. Even faster Face ID. The smartest, most powerful chip in a smartphone. And a breakthrough dual-camera system. iPhone XS is everything you love about iPhone. Taken to the extreme.",
       "thumbnail": "./resources/thumbnails/apple_iphone_xs.jpg",
-      "images": "./resources/images/apple_iphone_xs.jpeg"
+      "image": "./resources/images/apple_iphone_xs.jpeg"
     },
     {
       "id": 5,
       "brand": "Samsung",
       "colors": ["black", "blue", "gold", "pink"],
       "name": "Galaxy A7",
-      "price": 299,
+      "price": "299€",
       "year": 2018,
       "web": "https://www.samsung.com/es/smartphones/galaxy-a7/",
       "description": "The Samsung Galaxy A7 (2017) is built using aluminium and glass which makes it feel very premium. However, given its 5.7-inch display size, the phone feels bulky and heavy. It doesn’t have the best ergonomics either. The Super Amoled display produces good colours and brightness although we weren’t to pleased with the tone of the whites.",
       "summary": "The A7 (2018) is the first triple camera smartphone produced by Samsung, featuring 3 different camera on the rear. It features a 6 inch Super AMOLED Infinity Display with curved edges similar to the Samsung Galaxy A8 (2018), a side mounted fingerprint sensor on the power button and Dolby Atmos immersive sound technology.",
       "thumbnail": "./resources/thumbnails/samsung_galaxy_a7.jpg",
-      "images": "./resources/images/samsung_galaxy_a7.jpeg"
+      "image": "./resources/images/samsung_galaxy_a7.jpeg"
     },
     {
       "id": 6,
       "brand": "Samsung",
       "colors": ["black", "blue", "red"],
       "name": "Galaxy J6+",
-      "price": 199,
+      "price": "199€",
       "year": 2018,
       "web": "https://www.samsung.com/es/smartphones/galaxy-j6-j610/SM-J610FZRNPHE/",
       "description": "Samsung Galaxy J6+ smartphone was launched in September 2018. The phone comes with a 6.00-inch touchscreen display with a resolution of 720 pixels by 1480 pixels. Samsung Galaxy J6+ price in India starts from Rs. 12,990.",
       "summary": "The Samsung Galaxy J6+ is an Android smartphone developed by the Korean manufacturer Samsung Electronics. Announced on May 22, 2018 and released the same day along with the Samsung Galaxy J4 and the Samsung Galaxy J8, the J6 is a mid-range model smartphone and a successor to the Samsung Galaxy J5 (2017). It has a similar hardware design and software features to its high-end counterpart.",
       "thumbnail": "./resources/thumbnails/samsung_galaxy_j6_plus.jpg",
-      "images": "./resources/images/samsung_galaxy_j6_plus.jpeg"
+      "image": "./resources/images/samsung_galaxy_j6_plus.jpeg"
     },
     {
       "id": 7,
       "brand": "Samsung",
       "colors": ["black", "blue", "copper", "purple"],
       "name": "Galaxy Note9",
-      "price": 1009,
+      "price": "1009€",
       "year": 2018,
       "web": "https://www.samsung.com/es/smartphones/galaxy-note9/",
       "description": "The new Galaxy Note 9 has much the same hardware and cameras as the Galaxy S9 Plus. The main thing that sets the Galaxy Note 9 apart is its S Pen, which now has added Bluetooth connectivity and can be used as a single-button Bluetooth remote control.",
       "summary": "The Samsung Galaxy Note9 is an Android phablet smartphone designed, developed and marketed by Samsung Electronics as part of the Samsung Galaxy Note series. It was awarded the \"Best Phone of the Year\" award by Consumer Reports. It was unveiled on 9 August 2018, as the successor to the Samsung Galaxy Note 8.",
       "thumbnail": "./resources/thumbnails/samsung_galaxy_note9.jpg",
-      "images": "./resources/images/samsung_galaxy_note9.jpeg"
+      "image": "./resources/images/samsung_galaxy_note9.jpeg"
     },
     {
       "id": 8,
       "brand": "Samsung",
       "colors": ["black", "cyan", "gray", "rose-gold"],
       "name": "Galaxy S9",
-      "price": 849,
+      "price": "849€",
       "year": 2018,
       "web": "https://www.samsung.com/es/smartphones/galaxy-s9/",
       "description": "The Samsung Galaxy S9 features a metal and glass design, with tapering edges on both sides. It has a 5.8-inch Quad HD+ Super AMOLED display with an 18.5:9 aspect ratio. Touch response and colours are superb and it also supports HDR. In India, the phone uses an Exynos 9810 octa-core SoC and comes with 4GB of RAM a choice of 64GB or 256GB internal storage, which is expandable.",
       "summary": "The Samsung Galaxy S9 and Samsung Galaxy S9+ (shortened to S9 and S9+, respectively) are Android smartphones produced by Samsung Electronics as part of the Samsung Galaxy S series. The devices were revealed at the Mobile World Congress in Barcelona on 25 February 2018, as the successors to the Samsung Galaxy S8 and S8+.",
       "thumbnail": "./resources/thumbnails/samsung_galaxy_s9.jpg",
-      "images": "./resources/images/samsung_galaxy_s9.jpeg"
+      "image": "./resources/images/samsung_galaxy_s9.jpeg"
     },
     {
       "id": 9,
       "brand": "Xiaomi",
       "colors": ["black", "blue", "gold", "white"],
       "name": "Mi 8",
-      "price": 449,
+      "price": "449€",
       "year": 2018,
       "web": "https://www.mi.com/es/mi8/",
       "description": "Mi 8 smartphone was launched in May 2018. The phone comes with a 6.21-inch touchscreen display with a resolution of 1080 pixels by 2248 pixels at a PPI of 402 pixels per inch. Mi 8 price in India starts from Rs. 24,500.",
       "summary": "The Xiaomi Mi 8 is a flagship Android smartphone developed by Xiaomi Inc. It was launched at an event held in Shenzhen, China as the successor to the Xiaomi Mi 6. The naming of the Xiaomi Mi 8 (skipping the Mi 7) is in celebration of Xiaomi Inc's eighth anniversary. The Mi 8 draws parallels to the iPhone X, as both the rear and front of the phone are replicated.",
       "thumbnail": "./resources/thumbnails/xiaomi_mi_8.jpg",
-      "images": "./resources/images/xiaomi_mi_8.jpeg"
+      "image": "./resources/images/xiaomi_mi_8.jpeg"
     },
     {
       "id": 10,
       "brand": "Xiaomi",
       "colors": ["black", "blue", "gold"],
       "name": "Mi A2",
-      "price": 249,
+      "price": "249€",
       "year": 2018,
       "web": "https://www.mi.com/es/mi-a2/",
       "description": "The Mi A2 from Xiaomi is a part of Google's Android One Program. It sports a 5.99-inch display with fullHD+ resolution and Corning Gorilla Glass 5 for protection. It is powered by a Snapdragon 660 processor, has 4GB of RAM and 64GB of internal storage.",
       "summary": "The Mi A2 features a 5.99 inches Full HD+ (1080 x 2160 pixels resolution) 403ppi pixel density display, unimetal body, and Corning Gorilla Glass 5 protection. It is powered by a Qualcomm Snapdragon 660 processor and Adreno 512 GPU.and has a 2.0, Type-C 1.0 reversible connector. It has a dual rear camera (Primary camera is 12MP Sony IMX486 sensor of 1.25μm pixel size and f1.75 aperture and Secondary has 20MP Sony IMX376 sensor of 2.0μm pixel size f1.75 aperture).",
       "thumbnail": "./resources/thumbnails/xiaomi_mi_a2.jpg",
-      "images": "./resources/images/xiaomi_mi_a2.jpeg"
+      "image": "./resources/images/xiaomi_mi_a2.jpeg"
     },
     {
       "id": 11,
       "brand": "Xiaomi",
       "colors": ["black"],
       "name": "Mi MIX 3",
-      "price": 499,
+      "price": "499€",
       "year": 2018,
       "web": "https://www.mi.com/es/mix3/",
       "description": "The Mi Mix 3 is powered by octa-core processor and it comes with 6GB of RAM. The phone packs 128GB of internal storage that cannot be expanded. As far as the cameras are concerned, the Mi Mix 3 packs a 12-megapixel (f/1.8, 1.4-micron) primary camera and a 12-megapixel (f/2.4, 1-micron) secondary camera on the rear.",
       "summary": "The Xiaomi Mi MIX 3 was launched in Beijing on 25 October 2018. It is the successor for the Mi MIX 2S. This time Xiaomi uses a true bezel-less display with a magnetic sliding front camera setup. The Mi MIX 3 has an overall score of 103 and a photo score of 108 on DxOMark.",
       "thumbnail": "./resources/thumbnails/xiaomi_mi_mix_3.jpg",
-      "images": "./resources/images/xiaomi_mi_mix_3.jpeg"
+      "image": "./resources/images/xiaomi_mi_mix_3.jpeg"
     },
     {
       "id": 12,
       "brand": "Xiaomi",
       "colors": ["black", "blue", "gold", "pink", "red"],
       "name": "Redmi Note 6 Pro",
-      "price": 199,
+      "price": "199€",
       "year": 2018,
       "web": "https://www.mi.com/es/redmi-note-6-pro/",
       "description": "The Redmi Note 6 Pro is the successor of the Redmi Note 5 Pro. It has a notched display that measures 6.26 inches and has Corning Gorilla Glass for protection. Powering the Redmi Note 6 Pro is a Qualcomm Snapdragon 636 processor which is an octa-core processor clocked at 1.8GHz. There is 6GB of RAM and 64GB of storage. It has a hybrid dual-SIM slot which you can use to expand storage.",
       "summary": "The Xiaomi Mi MIX 3 was launched in Beijing on 25 October 2018. It is the successor for the Mi MIX 2S. This time Xiaomi uses a true bezel-less display with a magnetic sliding front camera setup. The Mi MIX 3 has an overall score of 103 and a photo score of 108 on DxOMark.",
       "thumbnail": "./resources/thumbnails/xiaomi_mi_mix_3.jpg",
-      "images": "./resources/images/xiaomi_mi_mix_3.jpeg"
+      "image": "./resources/images/xiaomi_mi_mix_3.jpeg"
     }
   ]
 }
