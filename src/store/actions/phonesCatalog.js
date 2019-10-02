@@ -1,9 +1,10 @@
 import * as actionTypes from './actionTypes';
 import axios from '../../axios-config';
 
-export const getPhonesStart = () => {
+export const getPhonesStart = page => {
   return {
-    type: actionTypes.GET_PHONES_START
+    type: actionTypes.GET_PHONES_START,
+    page: page
   };
 };
 
@@ -28,12 +29,12 @@ export const selectPhoneById = selectedPhone => {
   };
 };
 
-export const getPhones = () => {
+export const getPhones = page => {
   return dispatch => {
-    dispatch(getPhonesStart());
+    dispatch(getPhonesStart(page));
 
     axios
-      .get('/phones')
+      .get(`/phones?_page=${page}`)
       .then(response => dispatch(getPhonesSuccess(response.data)))
       .catch(err => dispatch(getPhonesFailure(err)));
   };

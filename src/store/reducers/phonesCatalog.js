@@ -4,12 +4,14 @@ import {updateObject} from '../utility';
 const initialState = {
   phones: [],
   selectedPhone: null,
+  page: 1,
   isLoading: false
 };
 
 const getPhonesStart = (state, action) => {
   return updateObject(state, {
-    isLoading: true
+    isLoading: true,
+    page: action.page
   });
 };
 
@@ -28,7 +30,7 @@ const getPhonesFailure = (state, action) => {
 
 const selectPhoneByID = (state, action) => {
   return updateObject(state, {
-    phone: action.phone
+    selectedPhone: action.phone
   });
 };
 
