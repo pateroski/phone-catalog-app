@@ -29,12 +29,12 @@ class PhoneListContainer extends Component {
     return (
       <Aux>
         <Spinner visible={this.props.isLoading} />
+        <Pagination clicked={this.switchCatalogPage} />
         <PhoneList
           phones={this.props.phones}
           selected={this.switchCatalogPage}
           clicked={this.showMorePhoneInfo}
         />
-        <Pagination clicked={this.switchCatalogPage} />
         <Modal show={this.props.showDetail} modalClosed={this.closeDetail}>
           <PhoneDetail
             phone={this.props.selectedPhone}
