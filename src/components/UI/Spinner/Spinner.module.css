@@ -1,0 +1,42 @@
+.Container {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 300;
+  height: 100vh;
+}
+
+.Spinner {
+  display: inline-block;
+}
+
+.Spinner:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: transparent #8339f0 transparent;
+  animation: loading 1s linear infinite;
+}
+
+@media (min-width: 992px) {
+  .Spinner:after {
+    width: 128px;
+    height: 128px;
+    border: 16px solid;
+    border-color: transparent #8339f0 transparent;
+  }
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

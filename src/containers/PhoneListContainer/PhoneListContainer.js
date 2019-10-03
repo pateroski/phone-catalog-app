@@ -5,6 +5,7 @@ import PhoneList from '../../components/PhoneList/PhoneList';
 import PhoneDetail from '../../components/PhoneDetail/PhoneDetail';
 import Pagination from '../../components/Pagination/Pagination';
 import Modal from '../../components/UI/Modal/Modal';
+import Spinner from '../../components/UI/Spinner/Spinner';
 import Aux from '../../hoc/Aux/Aux';
 
 class PhoneListContainer extends Component {
@@ -27,6 +28,7 @@ class PhoneListContainer extends Component {
   render() {
     return (
       <Aux>
+        <Spinner visible={this.props.isLoading} />
         <PhoneList
           phones={this.props.phones}
           selected={this.switchCatalogPage}
