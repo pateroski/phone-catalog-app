@@ -3,14 +3,16 @@ import classes from './Phone.module.css';
 
 const phone = props => (
   <div className={classes.PhoneCard}>
-    <img src={props.thumbnail} alt={props.name} />
+    <img className={classes.image} src={props.thumbnail} alt={props.name} />
     <div className={classes.Description}>
       <span className={classes.Name}>{props.name}</span>
       <span className={classes.Price}>{props.price}</span>
     </div>
-    <button className={classes.ShowMoreBtn} onClick={props.clicked}>
-      Ver más
-    </button>
+    <div>
+      <button className={classes.ShowMoreBtn} onClick={props.clicked}>
+        Ver más
+      </button>
+    </div>
   </div>
 );
 
