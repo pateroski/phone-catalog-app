@@ -1,0 +1,68 @@
+.PhoneDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PhoneDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.PhoneImage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.DescriptionList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.DescriptionList li {
+  padding: 5px 0;
+}
+
+.DescriptionItem {
+  color: #4982ee;
+  font-weight: 500;
+}
+
+.VisitWebLink,
+.ShowExitBtn {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  color: #8339f0;
+  font-weight: 500;
+  font-size: 1rem;
+  outline: none;
+  overflow: hidden;
+}
+
+.ShowExitBtn {
+  border-radius: 5px;
+  border: 2px solid #8339f0;
+  padding: 10px 15px;
+}
+
+@media (min-width: 992px) {
+  .PhoneDescription {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .PhoneImage {
+    width: 400px;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .DescriptionList {
+    padding: 10px;
+  }
+}
