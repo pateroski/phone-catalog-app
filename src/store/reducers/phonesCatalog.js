@@ -4,6 +4,7 @@ import {updateObject} from '../utility';
 const initialState = {
   phones: [],
   selectedPhone: null,
+  showDetail: false,
   page: 1,
   isLoading: false
 };
@@ -30,7 +31,13 @@ const getPhonesFailure = (state, action) => {
 
 const selectPhoneByID = (state, action) => {
   return updateObject(state, {
-    selectedPhone: action.phone
+    selectedPhone: action.selectedPhone,
+    showDetail: true
+  });
+};
+const switchModal = (state, action) => {
+  return updateObject(state, {
+    showDetail: action.showDetail
   });
 };
 
@@ -47,6 +54,9 @@ const reducer = (state = initialState, action) => {
 
     case actionTypes.SELECT_PHONE_BY_ID:
       return selectPhoneByID(state, action);
+
+    case actionTypes.SWITCH_MODAL:
+      return switchModal(state, action);
 
     default:
       return state;

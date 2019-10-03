@@ -43,7 +43,14 @@ export const getPhones = page => {
 export const filterPhoneById = id => {
   return (dispatch, getState) => {
     const phones = getState().phones;
-    const selectedPhone = phones.filter(phone => phone.id === id);
+    const selectedPhone = phones.find(phone => phone.id === id);
     dispatch(selectPhoneById(selectedPhone));
+  };
+};
+
+export const switchModal = showDetail => {
+  return {
+    type: actionTypes.SWITCH_MODAL,
+    showDetail: showDetail
   };
 };

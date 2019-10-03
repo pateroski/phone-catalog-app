@@ -1,1 +1,1 @@
-export {getPhones, filterPhoneById} from './phonesCatalog';
+export {getPhones, filterPhoneById, switchModal} from './phonesCatalog';
