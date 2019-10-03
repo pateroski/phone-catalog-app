@@ -3,7 +3,7 @@ import {updateObject} from '../utility';
 
 const initialState = {
   phones: [],
-  selectedPhone: null,
+  selectedPhone: {},
   showDetail: false,
   page: 1,
   isLoading: false
@@ -29,7 +29,7 @@ const getPhonesFailure = (state, action) => {
   });
 };
 
-const selectPhoneByID = (state, action) => {
+const filterPhoneByID = (state, action) => {
   return updateObject(state, {
     selectedPhone: action.selectedPhone,
     showDetail: true
@@ -53,7 +53,7 @@ const reducer = (state = initialState, action) => {
       return getPhonesFailure(state, action);
 
     case actionTypes.SELECT_PHONE_BY_ID:
-      return selectPhoneByID(state, action);
+      return filterPhoneByID(state, action);
 
     case actionTypes.SWITCH_MODAL:
       return switchModal(state, action);

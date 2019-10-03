@@ -34,7 +34,10 @@ class PhoneListContainer extends Component {
         />
         <Pagination clicked={this.switchCatalogPage} />
         <Modal show={this.props.showDetail} modalClosed={this.closeDetail}>
-          {<div>patata!</div>}
+          <PhoneDetail
+            phone={this.props.selectedPhone}
+            clicked={this.closeDetail}
+          />
         </Modal>
       </Aux>
     );
