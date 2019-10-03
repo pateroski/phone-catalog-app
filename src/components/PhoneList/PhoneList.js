@@ -11,7 +11,7 @@ const phoneList = props => {
           thumbnail={phone.thumbnail}
           name={phone.name}
           price={phone.price}
-          click={props.clicked.bind(this, phone.id)}
+          clicked={props.clicked.bind(this, phone.id)}
         />
       </li>
     );
