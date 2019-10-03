@@ -1,0 +1,14 @@
+.Header {
+  background-color: #8339f0;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.Content {
+  padding-top: 100px;
+}
