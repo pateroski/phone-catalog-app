@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './PhoneList.css';
+import classes from './PhoneList.module.css';
 
 import Phone from './Phone/Phone';
 

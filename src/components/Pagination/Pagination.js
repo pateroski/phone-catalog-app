@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Pagination.css';
+import classes from './Pagination.module.css';
 
 const pagination = props => (
   <ul className={classes.Pagination}>

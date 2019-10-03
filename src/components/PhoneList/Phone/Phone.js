@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Phone.css';
+import classes from './Phone.module.css';
 
 const phone = props => (
   <div className={classes.PhoneCard}>
