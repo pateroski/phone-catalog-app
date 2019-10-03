@@ -7,6 +7,7 @@
 .PhoneDescription {
   display: flex;
   flex-direction: column;
+  font-size: 0.875rem;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -39,7 +40,7 @@
   cursor: pointer;
   color: #8339f0;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 0.875rem;
   outline: none;
   overflow: hidden;
 }
@@ -54,6 +55,7 @@
   .PhoneDescription {
     flex-direction: row;
     align-items: flex-start;
+    font-size: 1rem;
   }
 
   .PhoneImage {
@@ -64,5 +66,10 @@
 
   .DescriptionList {
     padding: 10px;
+  }
+
+  .VisitWebLink,
+  .ShowExitBtn {
+    font-size: 1rem;
   }
 }

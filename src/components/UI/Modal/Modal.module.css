@@ -9,7 +9,7 @@
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   padding: 16px;
   left: calc(50% - 40%);
-  top: 5%;
+  top: 1%;
   box-sizing: border-box;
   transition: all 0.3s ease-out;
 }
